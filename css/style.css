@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    color: white;
+    background: url('/img/gym-bg.jpg');
+    /* background: url('/img/bg.jpg'); */
+    /* background: url('https://source.unsplash.com/1600x900/?gym, girl'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.left img {
+    filter: invert(100%);
+    width: 50px;
+    margin: auto;
+    padding-top: 7px;
+}
+
+.left h5 {
+    margin: 10px auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.mid {
+    /* border: 2px solid yellow; */
+    /* display: flex; */
+    width: 40%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 26px;
+    font-size: 17px;
+}
+
+.menu li {
+    list-style-type: none;
+    /* padding-top: 15px; */
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu li a:hover {
+    color: black;
+    background-color: rgb(221, 210, 210);
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.menu li a:active {
+    text-decoration: underline;
+}
+
+.right {
+    /* border: 2px solid green; */
+    padding-right: 15px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    font-size: 16px;
+    margin: auto;
+    padding: 3px;
+    border-radius: 11px;
+    width: 108px;
+    font-family: 'Baloo 2', cursive;
+    cursor: pointer;
+}
+
+.info-form {
+    float: right;
+    margin-top: 90px;
+    margin-right: 49px;
+    padding: 58px 8px;
+    border: 2px solid white;
+    border-radius: 23px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* trying to responsive */
+    box-sizing: border-box;
+}
+
+.info-form form {
+    box-sizing: border-box;
+}
+
+form .field {
+    box-sizing: border-box;
+}
+
+.field input {
+    box-sizing: border-box;
+}
+
+.info-form h2 {
+    text-transform: capitalize;
+    margin: 3px 0;
+    text-align: center;
+}
+
+.field input {
+    border-radius: 7px;
+    margin: 3px auto;
+    width: 400px;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    padding: 3px;
+    /* trying to responsive */
+    box-sizing: border-box;
+}
+
+form .btn {
+    color: white;
+    background-color: black;
+    margin: 9px auto;
+    width: 400px;
+    padding: 3px;
+}

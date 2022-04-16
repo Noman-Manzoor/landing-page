@@ -1,0 +1,177 @@
+    @media screen and ( max-width: 1030px) {
+        .field input {
+            width: 300px;
+        }
+        form .btn {
+            width: 300px;
+        }
+        .info-form {
+            margin-bottom: 70px;
+            margin-right: 49px;
+            padding: 30px 8px;
+        }
+    }
+    
+    @media screen and (max-width:816px) {
+        .field input {
+            width: 250px;
+            border-radius: 13px;
+            margin: 2px auto;
+            padding: 5px;
+            font-size: 12px;
+        }
+        form .btn {
+            width: 250px;
+        }
+        .left {
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 10px;
+        }
+        .left img {
+            width: 34px;
+            margin: 2px 0 0 10px;
+        }
+        .left h5 {
+            margin: 5px auto;
+            font-size: 11px;
+        }
+        .btn {
+            font-size: 11px;
+            margin: auto;
+            padding: 2px;
+            border-radius: 11px;
+            width: 89px;
+        }
+        .menu {
+            margin-top: 20px;
+        }
+        .menu li a {
+            font-size: 12px;
+        }
+    }
+    
+    @media screen and ( max-width: 750px) {
+        .info-form {
+            margin-bottom: 70px;
+            margin-right: 49px;
+            padding: 30px 8px;
+        }
+        .info-form h2 {
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+    }
+    /* fon infinix note 7 the width is 720 */
+    
+    @media screen and (max-width:700px) {
+        .info-form {
+            background-color: hsl(0, 18%, 93%);
+            opacity: 0.7;
+            float: none;
+            padding: 40px 8px;
+            width: 50%;
+            margin: 130px auto 90px auto;
+        }
+        .info-form h2 {
+            color: black;
+        }
+        .left {
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 7px;
+        }
+        .left img {
+            width: 25px;
+            margin: 2px 0 0 7px;
+        }
+        .left h5 {
+            margin: 4px auto;
+            font-size: 9px;
+        }
+        .menu li a:hover {
+            color: white;
+            text-decoration: none;
+            padding: 0;
+            background: none;
+        }
+        .menu li a:active {
+            text-decoration: none;
+        }
+        .right {
+            position: absolute;
+            margin-top: 565px;
+            margin-left: 38%;
+            margin-right: 31%;
+        }
+        .mid {
+            width: 60%;
+            float: right;
+            margin-right: 39px;
+        }
+        .menu li {
+            padding-right: 10px;
+        }
+        .field input {
+            margin: 10px auto 4px;
+        }
+        form .btn {
+            padding: 8px;
+        }
+    }
+    
+    @media screen and (max-width:634px) {
+        .right {
+            margin-left: 211px;
+            margin-top: 559px;
+        }
+    }
+    
+    @media screen and (max-width:591px) {
+        .right {
+            display: flex;
+        }
+    }
+    
+    @media screen and (max-width:561px) {
+        .right {
+            margin-left: 200px;
+        }
+    }
+    
+    @media screen and (max-width:545px) {
+        .right {
+            margin-left: 179px;
+        }
+    }
+    
+    @media screen and (max-width:506px) {
+        .right {
+            margin-left: 156px;
+        }
+    }
+    
+    @media screen and (max-width:466px) {
+        .right {
+            margin-left: 141px;
+            margin-top: 500px;
+        }
+        .mid {
+            width: 60%;
+            float: right;
+            margin-right: 20px;
+        }
+        .info-form {
+            margin-top: 65px;
+        }
+    }
+    
+    @media screen and (max-width:544px) {
+        .info-form {
+            width: 70%;
+        }
+    }
